@@ -3,12 +3,19 @@
   color: hsl(0, 100%, 50%);
 }
 
-.small-para {
+.para.small-para {
   font-size: 14px;
 }
+/*added .para*/
 
 .para {
-  font-size: 22px;
+  font-size: 32px;
+}
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
 
 .confirm {
@@ -16,12 +23,7 @@
   color: white;
   font-weight: bold;
 } 
-
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-}
+/*switched .confirmed and .button*/
 
 .child {
   color: red;
@@ -30,5 +32,11 @@
 
 div.text {
   color: green;
+  font-size: 32px;
+}
+
+.text.child{
+  color: red;
   font-size: 22px;
 }
+/*added .text.child to change last line*/
